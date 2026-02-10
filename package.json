@@ -1,16 +1,19 @@
 {
-  "name": "portfolio-assistant-api",
+  "name": "saksai",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "index": "node scripts/index.js"
   },
   "dependencies": {
-    "next": "^14.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@supabase/supabase-js": "^2.0.0",
-    "openai": "^4.0.0"
+    "@supabase/supabase-js": "^2.95.2",
+    "dotenv": "^17.2.4",
+    "next": "14.2.35",
+    "openai": "^4.77.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
