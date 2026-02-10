@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST={__rewrites:{afterFiles:[],beforeFiles:[],fallback:[]},"/_error":["static/chunks/pages/_error-7a92967bea80186d.js"],"/chat":["static/chunks/pages/chat-f694c5d2463a683b.js"],sortedPages:["/_app","/_error","/chat"]},self.__BUILD_MANIFEST_CB&&self.__BUILD_MANIFEST_CB();
