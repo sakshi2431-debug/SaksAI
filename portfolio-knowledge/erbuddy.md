@@ -1,13 +1,11 @@
-# ERbuddy Application Design
-
-**Improving Patient–Caregiver Communication for Healthcare Management**
-
-- **Role:** UX Researcher, Visual Designer  
-- **Client:** ERbuddy, Inc.  
-- **Timeline:** 4 months  
-- **Context:** Academic–industry collaboration via Pratt Institute’s Center for Digital Experience  
-- **Tools:** Figma, FigJam, Miro, Adobe Premiere, Excel
-
+--- 
+title: ERbuddy Application Design Improving Patient–Caregiver Communication for Healthcare Management
+Role: UX Researcher, Visual Designer  
+Client: ERbuddyInc
+Timeline: 4 months  
+url: https://sakshirane.com/work/erbuddy
+keywords: ERbuddy, healthcare UX, EMT tools, caregiver communication, medical workflow design, medication tracking, accessibility design, healthcare research, mobile healthcare app  
+Tools: Figma, FigJam, Miro, Adobe Premiere, Excel
 ---
 
 ## Overview
