@@ -1,70 +1,21 @@
-Here’s a **clean `.md knowledge-base entry** you can add for your *Amazon Music Reimagined* case study from your portfolio:
-
+---
+title: Amazon Music Reimagined
+project_type: Student product design concept
+role: UX Researcher and UX Designer on a team of four
+timeline: Four-week challenge, 2025
+tools: Figma, Adobe Premiere
+url: https://sakshirane.com/work/amazon
+keywords: amazon, amazon music, music, rewards, loyalty, award
 ---
 
-## Amazon Music Reimagined — Knowledge Base Entry
+## What we worked on
 
-**Project type:** Product Design, Design Innovation, Prototyping
-**Role:** UX Researcher, UX Designer
-**Timeline:** 1 Month
-**Client:** Amazon Music
-**Tools:** Figma, Adobe Premiere 
+Our team explored how listeners could have more control over music discovery. The concept lets someone choose between suggestions for the next track and connects listening activity with a rewards and loyalty experience. We developed research, a presentation, and a prototype during Pratt's Amazon Music Product Design Challenge.
 
-### Overview
+## Team and recognition
 
-Amazon Music lacked strong emotional engagement and long-term retention. Users reported uninspiring recommendations and a flat experience — many only used the app because it came with Amazon Prime. This project reimagined the mobile experience with the goal of *building emotional connection, personal identity expression, and habit-forming engagement*. 
-### Problem Statement
+I worked with Nabhi Shah, Radhika Balaji, and Shreya Lohakare. Our team received the **Fine-Tuned Award**, one of three named awards among 14 teams and 47 students in the 2025 challenge. Pratt's article credits our idea detailing, documentation, and design thinking. Amazon Music mentors advised participants; a panel of School of Information faculty selected the winners.
 
-* Recommendations felt inaccurate and impersonal
-* Users had little control over discovery
-* No recognition or reward for engagement
-* Lack of emotional reason to return daily
-  **How might we design an experience that builds loyalty, reflects user identity, and increases retention?** 
+This was a team award, not a first-place ranking or an executive-judged competition. The output was a student concept and prototype, not a released Amazon Music feature. Retention and repeat listening were design goals; we do not have production retention or revenue results for this concept.
 
-### Research Summary
-
-* Surveyed 50+ users
-* Conducted 10 in-depth interviews
-  Revealed core pain points around lack of agency, feedback, and emotional connection.
-
-### Key Insights
-
-1. Users want control over how music is suggested
-2. Recognition and rewards can motivate regular use
-3. Emotional connection with music strengthens loyalty 
-
-### Solution Highlights
-
-#### **Suggestion Mode**
-
-Empowers users to choose how recommendations are generated:
-
-* **What’s Trending** – community trends
-* **Sound Match** – mood/genre focus
-* **Smart Suggest** – hybrid approach
-  → Increases user agency and transparency in discovery. 
-#### **Rewards & Loyalty System**
-
-* Earn “Listening Points” for activity (listening time, playlists created, discovery actions)
-* Redeem for artist merch, concert perks, VIP drops
-* Visual progress dashboard
-  → Introduces habit loops and tangible incentives for engagement.
-
-### Design Rationale
-
-* **Agency over Algorithm:** choices make recommendations feel personal
-* **Gamification:** rewards create daily engagement loops
-* **Emotional Value:** linking music to identity boosts connection and retention 
-### Outcome & Impact
-
-* Created a mobile experience that won the Amazon Music Design Challenge
-* Strengthened music discovery, exploration, and motivation through rewards
-* Designed for *daily return behavior* and *higher customer lifetime value* 
-
-### Learnings
-
-* Emotional connection is core to retention
-* Simple control options drastically improve perceived value
-* Aligning user desires with business goals strengthens outcomes
-
-https://sakshirane.com/work/amazon "Amazon Music Reimagined - Sakshi Rane"
+Source: https://www.pratt.edu/news/the-music-listening-experience-reimagined/

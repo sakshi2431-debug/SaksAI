@@ -7,8 +7,10 @@
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev",
-    "test": "vitest",
-    "sync-kb": "node scripts/syncKnowledgeBase.js"
+    "test": "node --test ../../tests/*.test.js",
+    "sync-kb": "node ../../scripts/build-knowledge-base.js",
+    "predeploy": "node ../../scripts/build-knowledge-base.js",
+    "index-db": "node scripts/syncKnowledgeBase.js"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.12.4",

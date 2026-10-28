@@ -1,1 +1,10 @@
-node_modules
+node_modules/
+.next/
+.wrangler/
+coverage/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.DS_Store

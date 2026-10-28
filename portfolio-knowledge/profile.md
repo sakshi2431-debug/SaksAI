@@ -1,6 +1,6 @@
 ---
 name: Sakshi Rane
-role: UX/UI Designer
+role: Product Designer — B2B and AI workflows
 portfolio: https://sakshirane.com/about
 location: New York
 focus: Product design, UX research, AI-powered experiences, UX designer, Process, about 
@@ -14,7 +14,7 @@ I overthink interfaces. I notice when something feels slightly off. I get curiou
 
 I’m fascinated by the invisible layer of products. The assumptions. The tradeoffs. The quiet decisions someone made about what a user “should” understand. I’m the person who will pause mid-scroll and wonder who decided that button belonged there, and what conversation led to it.
 
-I’m currently studying Information Experience Design at Pratt, but most of my real growth has come from building things outside of obligation. I don’t like waiting for permission to experiment. If I want to understand something, I’ll prototype it. If I’m curious about AI, I’ll build with it. If I think there’s a better way to structure a system, I’ll map it out until it makes sense.
+I completed my master’s in Information Experience Design at Pratt in May 2026, but most of my real growth has come from building things outside of obligation. I don’t like waiting for permission to experiment. If I want to understand something, I’ll prototype it. If I’m curious about AI, I’ll build with it. If I think there’s a better way to structure a system, I’ll map it out until it makes sense.
 
 I’ve worked on everything from AI legal workspaces to music streaming loyalty systems to research-heavy usability studies. What connects all of it isn’t the industry — it’s the complexity. I’m drawn to problems that feel layered, slightly overwhelming at first glance. I like untangling them.
 
@@ -29,3 +29,10 @@ I’m still early in my career, and I’m aware of that. But I’m intentional. 
 If you’re here, you’re probably trying to understand who I am beyond the projects. The simplest answer is this: I care deeply about clarity, I’m obsessed with improving things that feel messy, and I’m building toward something bigger than just a job title.
 
 And I’m just getting started.
+
+
+## Scope of my work
+
+I have a Computer Engineering background and design B2B and AI workflows. At FTF Platforms, I am the sole designer working across Assistiv's administrator, instructor, and learner experiences and its design system. Those employment details are my own account; team size is not a measured adoption rate.
+
+I prototype with code and AI coding tools. Prototype quality, testing, and design decisions should be described separately from production engineering ownership. A prototype build is not proof that I independently wrote or maintain a deployed product.
