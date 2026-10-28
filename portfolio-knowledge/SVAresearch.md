@@ -1,7 +1,7 @@
 ---
 title: SVA Research Guide Redesign
 project_type: UX Research
-role: UX Researcher
+role: UX Researcher on a collaborative team
 timeline: 4 months
 tools: Tobii Pro X2, Tobii Pro Lab, Figma, Adobe Premiere
 url: https://sakshirane.com/work/sva
@@ -21,7 +21,7 @@ The existing search and navigation patterns caused confusion, information overlo
 
 👥 Research Approach
 
-I worked with a team of SVA students to evaluate the experience through a three-pronged research methodology:
+I worked with a research team to evaluate the experience through a three-pronged research methodology:
 
 Eye-Tracking for Task Completion
 
@@ -47,22 +47,19 @@ The three-column structure forced users to make unnecessary decisions (left vs r
 
 Small labels and undifferentiated text meant users struggled to parse sections — they got lost scrolling back and forth without a clear anchor point.
 
-🧪 Testing Metrics
+🧪 Interpreting the study
 
-83% task success rate for finding relevant resources
+We combined eye-tracking observations, task completion, SUS responses, and qualitative feedback to identify navigation and search problems. This was the SVA research-guides project; the older-adult and caregiver context belongs to ERbuddy.
 
-75% identified keywords and preview images as helpful
-
-SUS scores improved insights into usability bottlenecks
-These metrics grounded our recommendations in both behavioral and subjective evidence.
+Earlier materials gave different task-success figures without a shared denominator or measurement definition. Those percentages are omitted here until the underlying study records can establish which tasks, participants, and study phase they describe.
 
 💡 Design Recommendations
 
-Based on synthesized data from eye-tracking, quotes, click patterns, and SUS scores, I formulated recommendations in three focus areas:
+Based on synthesized data from eye-tracking, quotes, click patterns, and SUS scores, our team developed recommendations in three focus areas:
 
 🎯 1. Improve Scanability
 
-Students scan first, read second. So I recommended:
+Students scan first, read second. Our recommendations included:
 
 Larger logos and icons
 

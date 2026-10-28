@@ -1,9 +1,6 @@
-import { createClient } from "@supabase/supabase-js";
-
-const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_SERVICE_ROLE_KEY
-);
+import { loadKnowledgeBase } from "../../sakllm-worker/floral-rain-aae6/src/knowledgeBase.js";
+import { findRelevantDoc, buildDocSource, stripFrontmatter } from "../../sakllm-worker/floral-rain-aae6/src/index.js";
+import { messageFrom, searchDocuments } from "../../sakllm-worker/floral-rain-aae6/src/security.js";
 
 function clean(text = "") {
   return text.replace(/\s+/g, " ").trim();
@@ -43,15 +40,16 @@ function followUps(message) {
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).json({ error: "Use POST" });
 
-  const { message } = req.body || {};
-  if (!message) return res.status(400).json({ error: "Missing message" });
+  let message;
+  try { message = messageFrom(req.body); }
+  catch { return res.status(400).json({ error: "Provide a message (1–4000 characters)" }); }
 
-  const { data: matches, error } = await supabase.rpc("search_documents", {
-    query: message,
-    match_count: 8
-  });
-
-  if (error) return res.status(500).json({ error: error.message });
+  let matches;
+  try {
+    const doc = findRelevantDoc(message, loadKnowledgeBase());
+    matches = doc ? [{ ...buildDocSource(doc), content: stripFrontmatter(doc.content) }] : await searchDocuments(process.env, message);
+  }
+  catch { return res.status(503).json({ error: "Search is temporarily unavailable" }); }
 
   if (!matches || matches.length === 0) {
     return res.status(200).json({
@@ -69,3 +67,5 @@ export default async function handler(req, res) {
     followUps: followUps(message)
   });
 }
+
+export const config = { api: { bodyParser: { sizeLimit: "20kb" } } };

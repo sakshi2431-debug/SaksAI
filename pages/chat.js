@@ -37,6 +37,7 @@ export default function ChatPage() {
         body: JSON.stringify({ message: q })
       });
 
+      if (!res.ok) throw new Error("Chat unavailable");
       const data = await res.json();
 
       setMessages((m) => [
